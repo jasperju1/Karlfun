@@ -3,11 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Karl I love you</title>
+    <link rel="icon" href="images/logo.png">
 </head>
 <body>
-    <p>haaaai</p>
+    <header class="p-4 flex sm:gap-100 gap-5 flex-row items-center sm:justify-center bg-[#d79cff] tracking-wide">
+        <div class="items-center flex-row flex gap-4 sm:gap-0">
+            <a class="font-bold text-xl sm:text-3xl text-white" href="index.html">Mari.</a>
+        </div>
+        <div class="flex gap-5 sm:gap-15 items-center font-medium text-white">
+            <a href="index.html">Home</a>
+            <a href="Portfolio.html">Portfolio</a>
+            <a href="About.html">About</a>
+            <a href="faq.html">FAQ</a>
+        </div>
+    </header>
+
+<home>
+    <div class="p-20 ml-50 flex flex-row justify-center">
+        <div>
+            <img class="rounded-full object-cover w-100 h-100 border-10 border-white" src="images/3.jpg">
+        </div>
+
+        <div class="flex flex-col p-20 gap-3 w-200">
+            <p class="text-5xl font-bold">Marius Kendra</p>
+            <p class="text-xl font-thin">"Who the f**k tryna nut in my butt?"</p>
+            <p class="mt-5 text-xl">Just a guy with a camera and too many ideas. Capturing chaos, charm, and cheekbones since forever.</p>
+
+            <div class="flex flex-row gap-5 mt-5">
+                <a href="https://www.instagram.com/mariuskendra10/"><img class="w-10 h-10" src="images/instagram.png"></a>
+                <a href="https://discordlookup.com/user/471030370763014144"><img class="w-10 h-10" src="images/discord.png"></a>
+                <a href="https://www.reddit.com/user/LilLooper17/"><img class="w-10 h-10" src="images/reddit.png"></a>
+            </div>
+        </div>
+    </div>
+</home>
+
+<footer class="flex justify-center items-center bg-[#d79cff] mt-15">
+    <div class="border-t-1 mt-15 border-[#0000002B]">
+        <div class="p-10 flex gap-2 sm:gap-40 sm:flex-row flex-col">
+            <div class="flex items-left flex-col">
+                <h1 class="font-bold sm:text-2xl text-xl flex sm:pb-10 sm:text-left justify-center mb-3 sm:mb-0 text-white">Mari.</h1>
+                <p class="text-[#9F9F9F] sm:text-base text-sm font-base text-center sm:text-left">20 Tamme 69, Kose</p>
+            </div>
+            <div class="flex sm: flex-row sm:gap-10 gap-5 mt-5 sm:mt-0 sm:text-base text-sm text-white">
+                <p class="font-semibold">Links:</p>
+                <a href="index.html" class="font-medium">Home</a>
+                <a href="Portfolio.html" class="font-medium">Portfolio</a>
+                <a href="About.html" class="font-medium">About</a>
+                <a href="faq.html" class="font-medium">FAQ</a>
+            </div>
+            <div class="flex flex-col sm:gap-10 sm:text-base text-sm mt-5">
+                <p class="text-[#9F9F9F] font-medium mb-2 sm:mb-0">Contact</p>
+                <div class="flex gap-5">
+                    <p class="font-base underline text-zinc-400 underline-offset-10">Enter Your E-mail Address</p>
+                    <p class="font-medium underline underline-offset-10 sm:text-base text-sm">SUBSCRIBE</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
